@@ -9,6 +9,7 @@ export default class Todo extends Component {
         this.state = {
             todo: '',
             currentTodo: null,
+            cloneCurrentTodo: [],
             flag: true
         }
         this.getTodos();
@@ -23,7 +24,9 @@ export default class Todo extends Component {
         }
         else {
             let currentUserUid = firebase.auth().currentUser.uid;
+
             firebase.database().ref('/' + currentUserUid + "/todo").push({ todo: this.state.todo })
+
                 .then(() => {
                     this.setState({ todo: '' })
                 })
@@ -39,18 +42,13 @@ export default class Todo extends Component {
 
 
     getTodos() {
-        let cloneCurrentTodo = []
         let currentUserUid = firebase.auth().currentUser.uid;
         firebase.database().ref('/' + currentUserUid + "/todo").on('child_added', (data) => {
             let obj = data.val();
             obj.id = data.key;
-            cloneCurrentTodo = cloneCurrentTodo.concat(obj);
-            this.setState({ currentTodo: cloneCurrentTodo });
-            // console.log(this.state.currentTodo)
-
+            this.state.cloneCurrentTodo = this.state.cloneCurrentTodo.concat(obj);
+            this.setState({ currentTodo: this.state.cloneCurrentTodo });
         })
-
-
     }
 
 
@@ -61,6 +59,7 @@ export default class Todo extends Component {
         this.setState({
             todo: '',
             currentTodo: null,
+            cloneCurrentTodo: []
 
         })
         alert("dataClear")
@@ -69,9 +68,32 @@ export default class Todo extends Component {
 
 
 
-    render() {
 
-        // var items = ['Simon Mignolet', 'Nathaniel Clyne', 'Dejan Lovren', 'Mama Sakho', 'Emre Can'];
+    del(index) {
+        let cloneKey = this.state.currentTodo[index].id
+
+        let currentUserUid = firebase.auth().currentUser.uid;
+
+        firebase.database().ref('/' + currentUserUid + "/todo" + "/" + cloneKey).remove()
+
+
+            .then((v) => {
+                this.setState({
+                    // cloneCurrentTodo: cloneCurrentTodo.slice(0, index).concat(cloneCurrentTodo.slice(index + 1)),
+                    // flag:false
+
+
+                });
+            });
+    }
+
+
+
+
+
+
+
+    render() {
         return (
             <Container>
                 <Content>
@@ -93,11 +115,27 @@ export default class Todo extends Component {
                     <View style={styles.container}>
                         <FlatList
                             data={this.state.currentTodo}
-                            renderItem={({ item }) => <Text style={styles.item}>{item.todo}</Text>}
+                            renderItem={({ item, index }) =>
+                                (
+
+                                    <View style={{ flex: 1, flexDirection: 'row', margin: 18 }} key={index}>
+                                        <Text style={styles.item} style={{ width: 200, margin: 5 }}>{item.todo}</Text>
+
+                                        <Button rounded danger onPress={this.del.bind(this, index)} style={{ width: 50, height: 30, margin: 5 }}>
+                                            <Text>D</Text>
+                                        </Button>
+                                        <Button rounded warning onPress={this.add.bind(this)} style={{ width: 50, height: 30, margin: 5 }}>
+                                            <Text>E</Text>
+                                        </Button>
+
+                                    </View>
+
+
+
+
+                                )}
                         />
                     </View>
-
-
                 </Content>
             </Container>
 
@@ -110,7 +148,9 @@ export default class Todo extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        paddingTop: 22
+        paddingTop: 22,
+        // margin:50
+
 
     },
     item: {
