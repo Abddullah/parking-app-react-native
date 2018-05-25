@@ -49,7 +49,7 @@ export default class SignUp extends Component {
 
 
     render() {
-        const uri = "http://emptyweb.net/uzura/wp-content/uploads/2012/07/image_1207_todo_01.png";
+        const uri = "http://www.changiairport.com/content/dam/cag/3-transports/x3.0_transport-icon-big-7.png.pagespeed.ic.K6nd1MBgkr.webp";
 
         return (
             <Container>
@@ -106,11 +106,10 @@ const styles = StyleSheet.create({
         backgroundColor: "#cc3333"
     },
     marginText: {
-        color: 'blue',
+        color: '#66CCCC',
         textAlign: 'center',
         marginTop: 15
     }
-
 
 
 });

@@ -2,14 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41647cfa-7045-491a-8eee-be100cdad8ae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/package-lock.json" afterPath="$PROJECT_DIR$/TodoApp/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/package.json" afterPath="$PROJECT_DIR$/TodoApp/package.json" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/router.js" afterPath="$PROJECT_DIR$/TodoApp/router.js" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/src/component/home.js" afterPath="$PROJECT_DIR$/TodoApp/src/component/home.js" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/src/component/signin.js" afterPath="$PROJECT_DIR$/TodoApp/src/component/signin.js" />
-      <change beforePath="$PROJECT_DIR$/TodoApp/src/component/signup.js" afterPath="$PROJECT_DIR$/TodoApp/src/component/signup.js" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/.babelrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/.buckconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/.flowconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/.vscode/settings.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/.watchmanconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/App.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/__tests__/App.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/BUCK" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/proguard-rules.pro" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/src/main/java/com/todoapp/MainActivity.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/src/main/java/com/todoapp/MainApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/src/main/res/values/strings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/app/src/main/res/values/styles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/gradle.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/gradlew" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/gradlew.bat" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/keystores/BUCK" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/keystores/debug.keystore.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/android/settings.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/app.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/img/todoLogo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp-tvOS/Info.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp-tvOSTests/Info.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp.xcodeproj/project.pbxproj" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp.xcodeproj/xcshareddata/xcschemes/TodoApp-tvOS.xcscheme" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp.xcodeproj/xcshareddata/xcschemes/TodoApp.xcscheme" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp/AppDelegate.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp/AppDelegate.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp/Images.xcassets/Contents.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp/Info.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoApp/main.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoAppTests/Info.plist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/ios/TodoAppTests/TodoAppTests.m" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/package-lock.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/router.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/src/component/example.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/src/component/home.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/src/component/signup.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/src/store/action/action.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/src/store/constant/constant.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/src/store/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/src/store/reducer/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/SIGNUP PAGE REACT NATIVE WITH REDUX/src/store/reducer/reducer.js" afterPath="" />
     </list>
     <ignored path="todo app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +106,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +228,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2243346" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14512041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />

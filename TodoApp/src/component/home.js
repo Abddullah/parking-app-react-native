@@ -8,7 +8,7 @@ import * as firebase from 'firebase'
 
 
 
-import { Container, Button, Text, Content, Form, Item, Input, Label, Image, View, Thumbnail, Header, Alert, Footer, FooterTab } from 'native-base';
+import { Container, Button, Text, Content, Form, Item, Input, Label, Image, View, Thumbnail, Header, Alert, Footer, FooterTab, H1 } from 'native-base';
 
 
 
@@ -28,7 +28,7 @@ export default class home extends Component {
         firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password)
             .then(() => {
                 alert("sign In")
-                this.props.navigation.navigate("example")
+                this.props.navigation.navigate("tabs")
 
 
             })
@@ -49,9 +49,7 @@ export default class home extends Component {
 
 
     render() {
-        // const uri = "https://facebook.github.io/react-native/docs/assets/favicon.png";
-
-        const uri = "http://emptyweb.net/uzura/wp-content/uploads/2012/07/image_1207_todo_01.png";
+        const uri = "http://www.changiairport.com/content/dam/cag/3-transports/x3.0_transport-icon-big-7.png.pagespeed.ic.K6nd1MBgkr.webp";
         const createLogo = "https://cdn2.iconfinder.com/data/icons/flat-style-svg-icons-part-2/512/add_user_plus_male-256.png";
 
         return (
@@ -59,6 +57,9 @@ export default class home extends Component {
                 <Content>
                     <Form>
                         <Thumbnail style={styles.imgSize} source={{ uri: uri }} />
+                        <H1 style={styles.marginText}>
+                            SMART PARKING
+                        </H1>
 
                         <Item fixedLabel last>
                             <Label>Email</Label>
@@ -76,20 +77,12 @@ export default class home extends Component {
                             <Text>Sign In! </Text>
                         </Button>
 
-
-
-
-
-                        {/* <Button info full onPress={() => this.props.navigation.navigate("signup")}><Text> Sign Up </Text></Button> */}
-                        {/* <Button info full onPress={() => this.props.navigation.navigate("signin")}><Text> Sign In </Text></Button> */}
-
                     </Form>
                     <View>
                         <Text style={styles.marginText}
                             onPress={() => this.props.navigation.navigate("signup")}>
                             Create new Account
                     </Text>
-                    {/* <Thumbnail style={styles.imgSizeLogo} source={{ uri: createLogo }} /> */}
 
                     </View>
 
@@ -126,7 +119,7 @@ const styles = StyleSheet.create({
     },
 
     marginText: {
-        color: 'blue',
+        color: '#66CCCC',
         textAlign: 'center',
         marginTop: 15
     }

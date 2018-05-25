@@ -3,7 +3,8 @@ import { StackNavigator } from "react-navigation"
 import Home from "./src/component/home"
 import SignUp from "./src/component/signup"
 // import Signin from "./src/component/signin"
-import example from "./src/component/example"
+import setbooking from "./src/component/setbooking"
+import tabs from "./src/component/tabs"
 import * as firebase from 'firebase'
 
 
@@ -15,8 +16,8 @@ var config = {
     projectId: "example-c1bd0",
     storageBucket: "example-c1bd0.appspot.com",
     messagingSenderId: "976242645286"
-  };
-  firebase.initializeApp(config);
+};
+firebase.initializeApp(config);
 
 
 
@@ -26,25 +27,29 @@ const RootStack = StackNavigator({
         screen: Home
     },
 
-      signup: {
+    signup: {
         screen: SignUp
     },
- 
-  
-    example: {
-        screen: example
+
+
+    tabs: {
+        screen: tabs
     },
- 
+
+
+    setbooking: {
+        screen: setbooking
+    },
 
 
 },
 
-{
-    initialRouteName: "home",
-    navigationOptions :{
-        header: null
-    }
-}) 
+    {
+        initialRouteName: "home",
+        navigationOptions: {
+            header: null
+        }
+    })
 
 export default RootStack
 
